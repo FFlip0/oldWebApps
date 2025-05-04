@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1a1a1a;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+#game-container {
+  text-align: center;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  box-shadow: -2px 4px 10px rgba(0, 0, 0, 0.585);
+}
+
+#score {
+  font-size: 90px;
+  margin-top: 20px;
+  font-weight: bold;
+}
