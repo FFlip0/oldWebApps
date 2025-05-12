@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #153952 1%, #0f3aba 45%,#098ae0 100%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
+}
+
+#stuff {
+    background: rgba(0, 140, 255, 0.246);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+
+#divOutput {
+    display: none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.152);
+    border-radius: 6px;
+    background-color: rgb(35, 117, 224);
+    padding-top: 100px;
+    margin-top: -73px;
+    margin-bottom: 31px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    color: rgb(20, 79, 157);
+    font-weight: bold;
+    box-shadow: 0px 0px 50px rgb(36, 117, 224);
+    border: #125ab959;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 1;
+}
+
+.input {
+    color: rgb(20, 79, 157);
+    margin-bottom: 55px;
+    border-style: none;
+    width: 700px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    box-shadow: 0 1px 10px rgb(36, 117, 224);
+    background-color: rgba(36, 117, 224, 0.895);
+    color: #1010108b;
+
+    
+}
+.button {
+  background-color: rgb(38, 125, 240);
+  box-shadow: 0px 0px 50px rgb(36, 117, 224);
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(20, 79, 157);
+  margin-bottom: -10px;
+}
+
+.input, .button {
+    border-radius: 3.5px;
+    border: #00000000;
+    transition: all 1s ease;
+
+}
+
+.input:hover
+.button:hover
+#divOutput:hover {
+  opacity: 0.7;
+  cursor: none;
+}

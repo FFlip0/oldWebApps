@@ -1,0 +1,116 @@
+/*
+Mobile: 480px
+Tablet: 768px
+Desktop: 992px
+Large Desktop: 1200px
+*/
+
+@media (min-width: 768px) {
+
+
+    body {
+    overflow: hidden;
+    font-family: "Lexend", sans-serif;
+    margin: 0;
+    background-color: #1e1e1e;
+    background-image: radial-gradient(circle, transparent 1rem, #181818 0.1rem),
+        linear-gradient(#00000000 2rem, transparent 0rem),
+        linear-gradient(1deg, #1e1e1e 2rem, transparent 1220rem);
+    background-size: 3rem 3rem;
+    background-position: 5.25rem 5.25rem, 2.5rem 2.5rem, 2.5rem 2.5rem;
+      
+}
+#main-div {
+    padding: 20px;
+    max-width: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: #00000060;
+    backdrop-filter: blur(6px);
+
+    color: #ffffff;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #00000060;
+
+    animation: vertical 2s alternate ease-in-out;
+
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Space items evenly   */
+
+
+    
+
+
+}
+
+
+
+#Nametag {
+    padding: 20px;
+    margin: 10px;
+
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.9rem;
+
+    transition: 200ms ease-in-out;
+    
+}
+#Nametag:hover {cursor: default;}
+
+#HoverDisappear {
+    letter-spacing: 0px;
+
+    transition: 200ms;
+}
+#HoverDisappear:hover {
+    color: #00000000;
+    cursor: none;
+}
+#Description {
+    padding: 20px;
+    margin: 10px;
+
+    transition: 200ms ease-in-out;
+}
+#Pages {
+
+
+
+    transition: 200ms ease-in-out;
+}
+#Hobbies {
+    padding: 20px;
+    margin: 10px;
+
+    background-color: #00000000;
+
+    transition: 200ms ease-in-out;
+
+}
+#Hobbies:hover {cursor: default;}
+#HobbiesTitle {
+    font-weight: 900;
+    font-size: 1.2rem;
+
+}
+
+/* Vertical Keyframes
+@keyframes vertical {
+    from {
+      transform: translateX(-1000px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }
+*/
+}
+
+
+
+
